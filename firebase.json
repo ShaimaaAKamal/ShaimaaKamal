@@ -1,6 +1,7 @@
+
 {
   "hosting": {
-    "public": "public",
+    "public": "dist/shaimaa-kamal/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
