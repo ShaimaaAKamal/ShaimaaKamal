@@ -1,6 +1,4 @@
-.text-white {
-    color: #fff;
-}
+
 
 @mixin circle($size, $bg-color, $left: 0px, $top: 0px, $z-index: 1) {
   width: $size;
@@ -23,7 +21,7 @@ nav{
     top:30px;
     right:30px;
     z-index:10;
-    color:#fad2e1;
+    color:#fff1e6;
       i {
         transition: transform .5s linear,opacity .5s linear .5s;
         &.rotate {
