@@ -14,6 +14,8 @@ import { ServicesComponent } from './Components/mainComponents/services/services
 import { BlogsComponent } from './Components/mainComponents/blogs/blogs.component';
 import { TestimonialsComponent } from './Components/mainComponents/testimonials/testimonials.component';
 import { MovingCircleComponent } from './Components/mainComponents/moving-circle/moving-circle.component';
+import { AboutComponent } from './Components/mainComponents/about/about.component';
+import { SkillsComponent } from './Components/mainComponents/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { MovingCircleComponent } from './Components/mainComponents/moving-circle
     BlogsComponent,
     TestimonialsComponent,
     MovingCircleComponent,
+    AboutComponent,
+    SkillsComponent,
   ],
   imports: [
     BrowserModule,
