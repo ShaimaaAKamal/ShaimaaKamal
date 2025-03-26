@@ -1,1 +1,16 @@
-<p>navbar works!</p>
+<nav>
+  <span class="menu-icon" (click)="showNav()">
+      <i class="fas fa-bars fa-2x" [class.rotate]="navActive" [class.opacity]="navActive"></i>
+  </span>
+   <div class="nav" [class.opacity]="navActive">
+     <div class="nav-container position-relative" [class.active]="navActive">
+        <div class="nav-circle rounded-circle circle-1 position-absolute"><span>Contact</span></div>
+        <div class="nav-circle circle-2 rounded-circle position-absolute"><span>Projects</span></div>
+        <div class="nav-circle circle-3 rounded-circle position-absolute"><span>Skills</span></div>
+        <div class="nav-circle circle-4 rounded-circle position-absolute"><span>About</span></div>
+        <div class="nav-circle circle-5 rounded-circle position-absolute">
+          <span>Home</span>
+        </div>
+    </div>
+   </div>
+</nav>
