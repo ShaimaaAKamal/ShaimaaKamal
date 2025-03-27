@@ -17,6 +17,7 @@ import { MovingCircleComponent } from './Components/mainComponents/moving-circle
 import { AboutComponent } from './Components/mainComponents/about/about.component';
 import { SkillsComponent } from './Components/mainComponents/skills/skills.component';
 import { SocialLinksComponent } from './Components/sharedComponents/social-links/social-links.component';
+import { ProfileImageComponent } from './Components/sharedComponents/profile-image/profile-image.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { SocialLinksComponent } from './Components/sharedComponents/social-links
     AboutComponent,
     SkillsComponent,
     SocialLinksComponent,
+    ProfileImageComponent,
   ],
   imports: [
     BrowserModule,
