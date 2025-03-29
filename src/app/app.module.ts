@@ -40,7 +40,8 @@ import { ProfileImageComponent } from './Components/sharedComponents/profile-ima
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxParticlesModule  ],
+    NgxParticlesModule,
+   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent]
