@@ -1,0 +1,25 @@
+@use '../../../../styles/variables' as vars;
+button{
+  font-weight: 400;
+  font-size: 1rem;
+  padding:.6rem 1.1rem;
+  border-radius: 8px;
+  &.main{
+  background-color: vars.$babyPink-color;
+   &:hover{
+    border-color:#fff;
+    background-color: #fff;
+    color:#000;
+  }
+}
+  &.secondaryBtn{
+  border-color:vars.$babyPink-color;
+  color:vars.$babyPink-color;
+  &:hover{
+    border-color:#fff;
+    background-color: #fff;
+    color:#000;
+  }
+  }
+}
+

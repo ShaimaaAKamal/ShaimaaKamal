@@ -18,6 +18,7 @@ import { SkillsComponent } from './Components/mainComponents/skills/skills.compo
 import { SocialLinksComponent } from './Components/sharedComponents/social-links/social-links.component';
 import { ProfileImageComponent } from './Components/sharedComponents/profile-image/profile-image.component';
 import { ParticlesComponent } from './Components/sharedComponents/particles/particles.component';
+import { ActionButtonComponent } from './Components/sharedComponents/action-button/action-button.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ParticlesComponent } from './Components/sharedComponents/particles/part
     SocialLinksComponent,
     ProfileImageComponent,
     ParticlesComponent,
+    ActionButtonComponent,
   ],
   imports: [
     BrowserModule,

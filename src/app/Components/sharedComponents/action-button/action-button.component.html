@@ -1,0 +1,6 @@
+<button class="btn "
+  [ngClass]="{'main': btnType == 'main' , 'secondaryBtn' :btnType == 'secondary'}"
+  >
+  <span class="pe-2"> {{actionName}}</span>
+  <ng-content></ng-content>
+</button>
