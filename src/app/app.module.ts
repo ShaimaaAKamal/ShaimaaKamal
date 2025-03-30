@@ -18,6 +18,7 @@ import { AboutComponent } from './Components/mainComponents/about/about.componen
 import { SkillsComponent } from './Components/mainComponents/skills/skills.component';
 import { SocialLinksComponent } from './Components/sharedComponents/social-links/social-links.component';
 import { ProfileImageComponent } from './Components/sharedComponents/profile-image/profile-image.component';
+import { ParticlesComponent } from './Components/sharedComponents/particles/particles.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ProfileImageComponent } from './Components/sharedComponents/profile-ima
     SkillsComponent,
     SocialLinksComponent,
     ProfileImageComponent,
+    ParticlesComponent,
   ],
   imports: [
     BrowserModule,
