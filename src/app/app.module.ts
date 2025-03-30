@@ -4,7 +4,6 @@ import { NgxParticlesModule } from '@tsparticles/angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './Components/sharedComponents/footer/footer.component';
 import { NavbarComponent } from './Components/sharedComponents/navbar/navbar.component';
 import { HomeComponent } from './Components/mainComponents/home/home.component';
 import { ResumeComponent } from './Components/mainComponents/resume/resume.component';
@@ -23,7 +22,6 @@ import { ParticlesComponent } from './Components/sharedComponents/particles/part
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
     NavbarComponent,
     HomeComponent,
     ResumeComponent,
