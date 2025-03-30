@@ -19,6 +19,7 @@ import { SocialLinksComponent } from './Components/sharedComponents/social-links
 import { ProfileImageComponent } from './Components/sharedComponents/profile-image/profile-image.component';
 import { ParticlesComponent } from './Components/sharedComponents/particles/particles.component';
 import { ActionButtonComponent } from './Components/sharedComponents/action-button/action-button.component';
+import { MailComponent } from './Components/sharedComponents/mail/mail.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { ActionButtonComponent } from './Components/sharedComponents/action-butt
     ProfileImageComponent,
     ParticlesComponent,
     ActionButtonComponent,
+    MailComponent,
   ],
   imports: [
     BrowserModule,
