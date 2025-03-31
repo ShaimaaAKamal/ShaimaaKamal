@@ -1,9 +1,8 @@
 
-<!-- <ngx-particles id="tsparticles"></ngx-particles> -->
-<!-- <app-moving-circle></app-moving-circle> -->
-<section class="home text-white d-flex pt-5 mt-2  vh-100  ps-3 ms-2">
-  <div class="pt-5 mt-2">
-    <h1  class="fs-0 text-pink">Hello, I'm</h1>
+  <section class="home text-white  d-flex align-items-center justify-content-center vh-100">
+  <div class="homeContainer">
+  <div>
+     <h1  class="fs-0 text-pink">Hello, I'm</h1>
     <h2 class="h1 fs-0 text-pink" >Shaimaa Kamal ,</h2>
     <h4><span class="typing-element text-babyBlue"></span></h4>
       <div class="pt-3 fw-light small">
@@ -11,5 +10,17 @@
           I’m a Full-Stack Developer and UI/UX Designer who creates practical, user-friendly applications that help businesses streamline operations, attract more customers, and grow profitably. I build fast, reliable, and easy-to-use web solutions that simplify work rather than complicate it. With a focus on intuitive design, automation, and performance optimization, I help businesses save time, reduce costs, and improve customer satisfaction. Whether it’s designing a smooth interface, integrating systems for better workflows, or optimizing performance, my goal is to develop solutions that deliver real value. Let’s build something that works for you—[contact me] to bring your ideas to life!
         </p>
       </div>
+      <div class="pt-3">
+        <app-action-button [actionName]="'Contact me'" [btnType]="'main'" class="pe-4" (click)="sendMail()">
+          <i class="fa-solid fa-headset"></i>
+        </app-action-button>
+        <app-action-button [actionName]="'Download cv'" [btnType]="'secondary'"  (click)="downloadCV()">
+          <i class='fa-solid fa-download'></i>
+        </app-action-button>
+          <!-- <app-action-button [actionName]="'Download cv'" [btnType]="'secondary'"  (click)="openCV()">
+          <i class='fa-solid fa-download'></i>
+        </app-action-button> -->
+      </div>
+   </div>
   </div>
 </section>
